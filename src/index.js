@@ -37,7 +37,7 @@ const onLoggedIn = async function (users) {
   appRoot.appendChild(loading);
 
   const assetResponse = await marketApi.getAssets({
-    owmner: accountName,
+    owner: accountName,
     template_id: 338124,
   });
 
